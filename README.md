@@ -14,7 +14,7 @@ After preparation data looks like:\
 For distances between countries was used [Dynamic Time Warping (DTW)](https://cran.r-project.org/web/packages/dtw/vignettes/dtw.pdf) approach. It's better approach for time series comparing to classical methods because it's capable of finding disease peaks that can be shifted relative to each other and calculating distance between them not between relative pairs Xi and Yi as classical methods do. So it gives us more accurate distances between countries.
 
 Example of calculated DTW-distances between two time series (countries):
-![example](https://github.com/Georgiu/COVID19/DTW_example.png)
+![example](https://github.com/Georgiu/COVID19/blob/main/hclust.jpg)
 
 # Clustering
   - Multidimensional scaling + knn
