@@ -8,7 +8,7 @@ You can download data via csv by the [link](https://ourworldindata.org/explorers
   - For data scaling was used [min-max method](https://en.wikipedia.org/wiki/Feature_scaling)\
 
 After preparation data looks like:\
-![example](https://github.com/Georgiu/COVID19/data_preparation.png)
+![example](https://github.com/Georgiu/COVID19/blob/main/data_preparation.png)
 
 # Distances
 For distances between countries was used [Dynamic Time Warping (DTW)](https://cran.r-project.org/web/packages/dtw/vignettes/dtw.pdf) approach. It's better approach for time series comparing to classical methods because it's capable of finding disease peaks that can be shifted relative to each other and calculating distance between them not between relative pairs Xi and Yi as classical methods do. So it gives us more accurate distances between countries.
