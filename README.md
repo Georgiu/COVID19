@@ -24,4 +24,4 @@ Comparison between used clustering methods (mds + knn and hclust) using [Rand In
 
 # Results Interpretation
 Example of hierarchical clustering results researching 25 European countries (used service www.mapchart.net/europe.html):
-![results example](https://github.com/Georgiu/COVID19/hclust.jpg)
+![results example](https://github.com/Georgiu/COVID19/blob/main/hclust.jpg)
