@@ -37,7 +37,7 @@ for (i in 1:length(countries)){
         +theme(plot.title = element_text(size=20,color="darkgreen", hjust = 0.5)))
 }
 
-df <- data.frame(matrix(ncol = length(countries), nrow = 814))
+df <- data.frame(matrix(ncol = length(countries), nrow = 366))
 x <- countries
 colnames(df) <- x
 
@@ -63,7 +63,7 @@ for (i in 1:length(countries)){
           geom_point(size = 3, alpha = .5, color = "grey") + 
           geom_line(aes(x=date, y=smooth), color="red",lwd=1))
   
-  while (length(smooth)<814){
+  while (length(smooth)<366){
     smooth<-c(smooth,NA)
   }
   df[countries[i]]=smooth
