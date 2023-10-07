@@ -89,7 +89,7 @@ for (i in 1:length(countries)){
 al1 <- dtw(na.omit(df$Poland),na.omit(df$Ukraine),keep=TRUE)  
 dtwPlotTwoWay(al1)
 
-# Multidimensional scaling + knn
+# Multidimensional scaling + kmeans
 fit <- cmdscale(dist_matrix,eig=TRUE, k=2)
 res <- kmeans(fit$points, 4, nstart=25)
 x <- fit$points[,1]
